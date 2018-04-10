@@ -15,7 +15,7 @@ namespace Ernesto_Rios
                 Console.WriteLine("Seleccione una opcion; ");
                 Console.WriteLine("1. Crear sucursal");
                 Console.WriteLine("2. Crear vehiculo");
-                Console.WriteLine("3. Agregar vehiculo");
+                Console.WriteLine("3. Arrendar vehiculo");
                 Console.WriteLine("4. Cerrar");
                 String decision = Console.ReadLine();
 
@@ -33,8 +33,16 @@ namespace Ernesto_Rios
                     String tipo1 = Console.ReadLine();
                     Console.WriteLine("Tarifa de arriendo: ");
                     int t1 = Convert.ToInt32(Console.ReadLine());
-                    Vehiculo vehiculo1 = new Vehiculo(tipo1, t1);
+                    Console.WriteLine("Patente del vehiculo: ");
+                    String patente1 = Console.ReadLine();
+                    Vehiculo vehiculo1 = new Vehiculo(tipo1, t1, patente1);
+
                 }
+                if(decision == "3")
+                {
+                    Console.WriteLine("Nombre de la sucursal en que desea arrendar");
+                }
+                
             }
         }
     }

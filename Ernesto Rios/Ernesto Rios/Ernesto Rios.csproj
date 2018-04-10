@@ -45,7 +45,9 @@
     <Compile Include="Accesorio.cs" />
     <Compile Include="Arriendo.cs" />
     <Compile Include="Cliente.cs" />
-    <Compile Include="Otros.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="Institucion.cs" />
+    <Compile Include="Organizacion.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -8,17 +8,18 @@ namespace Ernesto_Rios
 {
     public class Arriendo
     {
-        Cliente cliente1;
+        Cliente tipo;
         Vehiculo vehiculo1;
         Accesorio[] accesorios;
         String tiempo;
 
-        public Arriendo(Cliente newCliente, Vehiculo newVehiculo, Accesorio[] accesorio1, String tiempo1)
+        public Arriendo(Cliente tipo1 , Vehiculo newVehiculo, Accesorio[] accesorio1, String tiempo1)
         {
-            cliente1 = newCliente;
+            tipo = tipo1;
             vehiculo1 = newVehiculo;
             accesorios = accesorio1;
             tiempo = tiempo1;
         }
+
     }
 }

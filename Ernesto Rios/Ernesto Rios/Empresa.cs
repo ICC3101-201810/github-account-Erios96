@@ -6,23 +6,17 @@ using System.Threading.Tasks;
 
 namespace Ernesto_Rios
 {
-    public class Persona : Cliente
+    public class Empresa: Cliente
     {
-        String licencia;
-
-        public Persona(String nombre1, String rut1, String licencia1)
+        String permiso;
+        public Empresa(String nombre1, String rut1, String permiso1)
             : base(nombre1, rut1)
         {
-            licencia = licencia1;
+            permiso = permiso1;
         }
         public bool revisarPermiso(Vehiculo vehiculo)
         {
-            if (vehiculo.getTipo() == "Bus")
-            {
-                Console.WriteLine("Las personas no pueden arrendar buses");
-                return false;
-            }
-            if (licencia == vehiculo.getTipo())
+            if( permiso == vehiculo.getTipo())
             {
                 return true;
             }
