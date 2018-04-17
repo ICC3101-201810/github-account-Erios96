@@ -14,5 +14,9 @@ namespace Ernesto_Rios
             nombre = nombre1;
             rut = rut1;
         }
+        public string getRut()
+        {
+            return rut;
+        }
     }
 }

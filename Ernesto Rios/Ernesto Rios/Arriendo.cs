@@ -10,10 +10,10 @@ namespace Ernesto_Rios
     {
         Cliente tipo;
         Vehiculo vehiculo1;
-        Accesorio[] accesorios;
+        List<Accesorio> accesorios;
         String tiempo;
 
-        public Arriendo(Cliente tipo1 , Vehiculo newVehiculo, Accesorio[] accesorio1, String tiempo1)
+        public Arriendo(Cliente tipo1 , Vehiculo newVehiculo, List<Accesorio> accesorio1, String tiempo1)
         {
             tipo = tipo1;
             vehiculo1 = newVehiculo;

@@ -15,5 +15,9 @@ namespace Ernesto_Rios
             tipo = tipo1;
             precio = precio1;
         }
+        public void saludar()
+        {
+            Console.WriteLine(tipo + " tiene un precio de " + precio);
+        }
     }
 }

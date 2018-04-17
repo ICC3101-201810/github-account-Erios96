@@ -21,5 +21,9 @@ namespace Ernesto_Rios
         {
             return tipo;
         }
+        public string getPatente()
+        {
+            return patente;
+        }
     }
 }

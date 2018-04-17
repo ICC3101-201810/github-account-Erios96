@@ -31,5 +31,19 @@ namespace Ernesto_Rios
                 return false;
             }
         }
+        public bool pedirPermisoBus()
+        {
+            Random prob = new Random();
+            int num = prob.Next(0, 100);
+            if (num <= 35)
+            {
+                permiso = "Bus";
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

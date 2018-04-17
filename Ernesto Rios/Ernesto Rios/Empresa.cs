@@ -20,6 +20,34 @@ namespace Ernesto_Rios
             {
                 return true;
             }
+            if(vehiculo.getTipo() == "Maquinaria pesada")
+            {
+                Random prob = new Random();
+                int num = prob.Next(0, 100);
+                if (num <= 63)
+                {
+                    permiso = "Maquinaria pesada";
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool pedirPermisoBus()
+        {
+            Random prob = new Random();
+            int num = prob.Next(0, 100);
+            if (num <= 80)
+            {
+                permiso = "Bus";
+                return true;
+            }
             else
             {
                 return false;

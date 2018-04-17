@@ -1,0 +1,6 @@
+/Users/ernestorios/Desktop/github-account-Erios96/Ernesto Rios/Ernesto Rios/obj/Debug/Ernesto Rios.csproj.CoreCompileInputs.cache
+/Users/ernestorios/Desktop/github-account-Erios96/Ernesto Rios/Ernesto Rios/bin/Debug/Ernesto Rios.exe.config
+/Users/ernestorios/Desktop/github-account-Erios96/Ernesto Rios/Ernesto Rios/bin/Debug/Ernesto Rios.exe
+/Users/ernestorios/Desktop/github-account-Erios96/Ernesto Rios/Ernesto Rios/bin/Debug/Ernesto Rios.pdb
+/Users/ernestorios/Desktop/github-account-Erios96/Ernesto Rios/Ernesto Rios/obj/Debug/Ernesto Rios.exe
+/Users/ernestorios/Desktop/github-account-Erios96/Ernesto Rios/Ernesto Rios/obj/Debug/Ernesto Rios.pdb
