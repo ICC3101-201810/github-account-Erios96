@@ -30,5 +30,16 @@ namespace Ernesto_Rios
             Vehiculo vehiculo = vehiculos.Where(x=>x.getPatente()==patente).ToList().First();
             return vehiculo;
         }
+        public void recibirAuto(String patente)
+        {
+            foreach(Arriendo a in arriendos)
+            {
+
+                if (a.GetVehiculo().getPatente() == patente) 
+                {
+                    arriendos.Remove(a);
+                }
+            }
+        }
     }
 }

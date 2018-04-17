@@ -20,6 +20,9 @@ namespace Ernesto_Rios
             accesorios = accesorio1;
             tiempo = tiempo1;
         }
-
+        public Vehiculo GetVehiculo()
+        {
+            return vehiculo1;
+        }
     }
 }
